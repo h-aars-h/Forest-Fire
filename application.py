@@ -3,7 +3,7 @@ import pickle
 import numpy as np 
 import pandas as pd 
 from sklearn.preprocessing import StandardScaler
-
+application=app
 app = Flask(__name__)
 
 ridge_model=pickle.load(open('models /ridge.pkl','rb'))
